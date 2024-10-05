@@ -106,7 +106,7 @@ function Shared() {
                   Open
                 </button>
               </div>
-              <div className="text-gray-600">Click twise</div>
+              <div className="text-gray-600">Click multiple times</div>
             </form>
           </div>
         </div>

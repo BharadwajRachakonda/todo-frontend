@@ -8,10 +8,10 @@ import React from "react";
 
 function Navbottom(props) {
   return (
-    <div className="w-screen md:flex flex-row items-center bg-slate-800 hidden text-white rounded-t-3xl justify-center absolute bottom-0 left-0">
+    <div className="w-full flex flex-row items-center bg-slate-800 text-white rounded-t-3xl justify-center">
       <div className="flex flex-col z-10">
         <h2 className="text-lg font-bold md:m-4">Contact</h2>
-        <ul className="font-bold flex flex-row md:m-4 justify-between gap-10">
+        <ul className="font-bold flex md:flex-row flex-col md:m-4 md:justify-between justify-center items-center gap-10">
           <li className="transition-all rounded-md delay-150 duration-300 ease-in-out p-2 bg-neutral-500 hover:scale-125 hover:tracking-widest group">
             <i className="fa-brands fa-linkedin group-hover:animate-bounce"></i>
             <a href="https://www.linkedin.com/in/bharadwaj-rachakonda-b36658258/">

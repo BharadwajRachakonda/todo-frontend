@@ -14,8 +14,8 @@ function ToDoItem(props) {
   };
 
   return (
-    <div className="md:m-0 m-5 Aboutbox w-52 h-48 flex flex-col justify-evenly items-center">
-      <div className="text-gray-400">title: {todo.title}</div>
+    <div className="w-64 p-4 border rounded shadow-md">
+      <h3 className="text-lg font-bold">{todo.title}</h3>
       <div>{todo.value}</div>
       <div className="flex flex-row gap-4">
         <div onClick={() => del(todo.title)}>

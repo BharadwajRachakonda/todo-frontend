@@ -6,7 +6,7 @@ function Collections() {
   const context = useContext(CollectionContext);
   const { collection } = context;
   return (
-    <div className="flex flex-wrap gap-16 overflow-auto scrollbar-hide">
+    <div className="flex flex-wrap gap-16 min-h-full justify-center items-center">
       {collection.map((collect, index) => (
         <CollectionItem collection={collect} key={index} />
       ))}

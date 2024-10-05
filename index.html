@@ -41,16 +41,13 @@
       }
 
       .bggradient {
-        position: absolute;
-        width: 100%;
-        height: 100%;
         z-index: -50;
         background: linear-gradient(to right, #ff7e5f, #feb47b);
       }
     </style>
   </head>
   <body class="scrollbar-hide">
-    <div class="bggradient"></div>
+    <div class="bggradient fixed min-h-full w-full left-0 top-0"></div>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

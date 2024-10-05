@@ -33,7 +33,7 @@ function Home() {
   }
 
   return (
-    <div className="h-screen flex flex-col justify-center items-center p-4 scrollbar-hide">
+    <div className="flex flex-col justify-center items-center p-4 scrollbar-hide">
       <div
         className="transition-all duration-300 ease-in-out button px-6 py-2 absolute top-28 left-5 rounded-3xl hover:rounded-none cursor-pointer"
         onClick={() => {
@@ -104,6 +104,12 @@ function Home() {
         </div>
       )}
       <div className="scrollbar-hide">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <Collections />
       </div>
     </div>

@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="scrollbar-hide">
-      <div className="overflow-y-auto overflow-x-hidden scrollbar-hide">
+      <div className="overflow-y-scroll overflow-x-hidden scrollbar-hide flex flex-col justify-between min-h-screen">
         <LoginState>
           <CollectionState>
             <Router>
