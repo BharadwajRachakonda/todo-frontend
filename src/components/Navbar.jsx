@@ -56,7 +56,7 @@ const Navbar = () => {
           <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
             <li>
               <Link
-                to="/"
+                to="/todo-frontend"
                 className={
                   `hover:tracking-wider transition-all ease-in-out duration-500 block py-2 px-3 text-white rounded md:bg-transparent hover:underline md:p-0 md:dark:bg-transparent navtextshadow ` +
                   (location.pathname == "/"
