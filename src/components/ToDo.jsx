@@ -164,7 +164,9 @@ function ToDo() {
         <br />
         <br />
         <br />
-
+        <br />
+        <br />
+        <br />
         <div className="flex flex-col justify-center items-center">
           <h1 className="md:text-3xl text-lg">
             Collection: {collection.title}
