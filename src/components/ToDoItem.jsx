@@ -14,7 +14,7 @@ function ToDoItem(props) {
   };
 
   return (
-    <div className="w-64 p-4 border rounded shadow-md">
+    <span className="p-4 border rounded shadow-md">
       <h3 className="text-lg font-bold">{todo.title}</h3>
       <div>{todo.value}</div>
       <div className="flex flex-row gap-4">
@@ -23,7 +23,7 @@ function ToDoItem(props) {
           {/* Delete a ToDo */}
         </div>
       </div>
-    </div>
+    </span>
   );
 }
 

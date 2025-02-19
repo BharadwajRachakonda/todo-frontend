@@ -15,7 +15,7 @@ function CollectionItem(props) {
   };
 
   return (
-    <div className="md:m-0 m-5 Aboutbox w-52 h-48 flex flex-col justify-evenly items-center">
+    <span className="md:m-0 m-5 Aboutbox flex flex-col justify-evenly items-center space-y-4 p-2">
       <p>{collection.title} </p>
       <div className="flex">
         <p className="py-2 px-2">By {collection.author}</p>
@@ -34,7 +34,7 @@ function CollectionItem(props) {
           {/* Delete a Collection */}
         </div>
       </div>
-    </div>
+    </span>
   );
 }
 
