@@ -14,7 +14,7 @@ function Navbottom(props) {
         <ul className="font-bold flex md:flex-row flex-col md:m-4 md:justify-between justify-center items-center gap-10">
           <li className="transition-all rounded-md delay-150 duration-300 ease-in-out p-2 bg-neutral-500 hover:scale-125 hover:tracking-widest group">
             <i className="fa-brands fa-linkedin group-hover:animate-bounce"></i>
-            <a href="https://www.linkedin.com/in/bharadwaj-rachakonda-b36658258/">
+            <a href="https://www.linkedin.com/in/bharadwajrachakonda/">
               {" "}
               Linkedin
             </a>
