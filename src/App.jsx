@@ -47,7 +47,7 @@ function App() {
             </Router>
           </CollectionState>
         </LoginState>
-        <Navbottom />
+        {/* <Navbottom /> */}
       </div>
     </div>
   );
