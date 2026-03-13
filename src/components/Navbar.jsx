@@ -95,12 +95,12 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link
+              {/* <Link
                 to="mailto:rbaharadwaj022@gmail.com"
                 className="hover:tracking-wider transition-all ease-in-out duration-500 block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-pink-700 md:p-0 dark:text-white hover:underline md:dark:hover:text-pink-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent navtextshadow"
               >
                 Contact
-              </Link>
+              </Link> */}
             </li>
           </ul>
         </div>

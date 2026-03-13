@@ -7,7 +7,7 @@ function About() {
       <br />
       <br />
       <div className="flex flex-col justify-center Aboutbox max-w-3xl gap-8 p-8">
-        <h1>By Bharadwaj</h1>
+        <h1>By Nagar Basha Shaik</h1>
         <p className="text-justify">
           Hello, folks! I'm Nagar Basha Shaik, the developer behind this MERN
           application. Allow me to give you an overview: The app is built using
