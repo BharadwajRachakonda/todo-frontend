@@ -7,9 +7,9 @@ function About() {
       <br />
       <br />
       <div className="flex flex-col justify-center Aboutbox max-w-3xl gap-8 p-8">
-        <h1>By Nagar Basha Shaik</h1>
+        <h1>By Bharadwaj Rachakonda</h1>
         <p className="text-justify">
-          Hello, folks! I'm Nagar Basha Shaik, the developer behind this MERN
+          Hello, folks! I'm Bharadwaj Rachakonda, the developer behind this MERN
           application. Allow me to give you an overview: The app is built using
           MongoDB, Express, React, and Node.js—a full-stack project. You can use
           it to create and manage your to-do lists. Need some collaborative
